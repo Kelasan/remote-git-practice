@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codetrain Registration Form</title>
+    <link rel="stylesheet" href="registration-form.css">
+</head>
+<body>
+    <form action="">
+        <div class="heading">
+            <H1>Codetrain Registration Form</H1>
+            <p>There are 3 steps in our application process. Firstly, fill out this enrolment form, and then our admissions team will reach out to you to find out if you are a good fit for the program. If you make it through, we will assist you to get started on the admissions process. </p>
+            <hr>
+            <br>
+        <label class="email-exp">example@gmail.com</label>
+        <a href="#">Switch account</a>
+        <br>
+        <br>
+        <label class="required" style="color: red;">*Required</label>
+        </div>
+        <br>
+        <br>
+       <div class="type-email">
+           <label class="email">Email <span style="color: red;">*</span></label>
+           <br>
+           <br>
+           <br>
+           <input type="text" name="email" placeholder="Your email" required>
+       </div>
+       <div class="type-fullname">
+           <label class="fullname">Full Name<span style="color: red;">*</span></label>
+           <br>
+           <br>
+           <br>
+           <input type="text" name="fullname" placeholder="Your answer" required>
+        </div>
+        <div class="type-phone-number">
+            <label class="phone-number">Phone Number<span style="color: red;">*</span></label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="phone-number" placeholder="Your answer" required>
+         </div>
+         <div class="type-next-of-kin">
+            <label class="next-of-kin">Phone number of next of kin</label>
+            <br>
+            <p id="next-of-kin">Phone number of someone we can reach out to incase your phone is off or not reachable. Eg, your parent, guardian or siblings, or spouse</p>
+            <br>
+            <input type="text" name="next-of-kin" placeholder="Your answer" class="input-kin" required>
+         </div>
+         <div class="fees">
+            <label class="fees">Can you pay 60% or more of the full Codetrain fees (GHS6000) <span style="color: red;">*</label>
+            <br>
+            <br>
+            <br>
+            <input type="radio" name="fees" value="N0" required>  No
+            <br>       
+            <br>       
+            <input type="radio" name="fees" value="Yes" required>  Yes             
+         </div>
+         <div class="fees-2">
+            <label class="fees-2">Please indicate who is going to pay your fees <span style="color: red;">*</label>
+            <br>
+            <br>
+            <br>
+            <input type="radio" name="fees-2" value="Yourself" required>  Yourself
+            <br>       
+            <br>       
+            <input type="radio" name="fees-2" value=" Parent / Sponsor " required>  Parent / Sponsor 
+            <br>       
+            <br>              
+            <input type="radio" name="fees-2" value=" Organization " required>  Organization             
+         </div>
+         <div class="type-location">
+            <label class="location">Location<span style="color: red;"> *</span></label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="location" placeholder="Your answer" required>
+         </div>
+         <div class="type-school">
+            <label class="school">Current or previous School<span style="color: red;"> *</span></label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="school" placeholder="Your answer"required>
+         </div>
+         <div class="type-codetrain">
+            <label class="codetrain">Why do you want to join Codetrain<span style="color: red;"> *</span></label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="codetrain" placeholder="Your answer" required>
+         </div>
+         <div class="type-codetrain-2">
+            <label class="type-codetrain-2">How did you hear about Codetrain ?<span style="color: red;"> *</span></label>
+            <br>
+            <br>
+            <br>
+            <input type="text" name="codetrain" placeholder="Your answer" required>
+         </div>
+         <br>
+         <br>
+         <div class="footer">
+             <p>A copy of your responses will be emailed to the address you provided.</p>
+             <br>
+             <br>
+             <buttom id="submit">Submit</buttom>
+             <p id="clear-form">Clear Form</p>
+    </form>
+</body>
+</html>
